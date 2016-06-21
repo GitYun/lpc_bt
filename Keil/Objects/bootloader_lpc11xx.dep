@@ -1,0 +1,44 @@
+Dependencies for Project 'bootloader', Target 'lpc11xx': (DO NOT MODIFY !)
+F (..\Core\Device\NXP\LPC11xx\Source\Templates\startup\arm\startup_LPC11xx.s)(0x4FA340B3)(--cpu Cortex-M0 --pd "__EVAL SETA 1" -g --apcs=interwork -I "E:\CodesPath\MDK ARM\lpc11xx_bootloader\Keil\RTE"-I "D:\Program Files\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx"-I "D:\Program Files\Keil_v5\ARM\CMSIS\Include"--pd "__UVISION_VERSION SETA 520"--list .\listings\startup_lpc11xx.lst --xref -o .\objects\startup_lpc11xx.o --depend .\objects\startup_lpc11xx.d)
+F (..\Core\Device\NXP\LPC11xx\Source\Templates\system_LPC11xx.c)(0x4FA340B3)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\..\lpc11xx_bootloader -I ..\Core\Device\NXP\LPC11xx\Include -I ..\Core\CMSIS\Include -I ..\drivers\inc -I ..\iap\inc -I ..\main-I "E:\CodesPath\MDK ARM\lpc11xx_bootloader\Keil\RTE"-I "D:\Program Files\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx"-I "D:\Program Files\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DLPC1XXX -DFLASH_32-o .\objects\system_lpc11xx.o --omf_browse .\objects\system_lpc11xx.crf --depend .\objects\system_lpc11xx.d)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Core\Device\NXP\LPC11xx\Include\LPC11xx.h)(0x4FA340B3)
+I (..\Core\CMSIS\Include\core_cm0.h)(0x4FA340B3)
+I (..\Core\CMSIS\Include\core_cmInstr.h)(0x4F3DF1A1)
+I (..\Core\CMSIS\Include\core_cmFunc.h)(0x4F3DF1A1)
+I (..\Core\Device\NXP\LPC11xx\Include\system_LPC11xx.h)(0x4FA340B3)
+F (..\iap\src\FlashDev.c)(0x5763BCC6)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\..\lpc11xx_bootloader -I ..\Core\Device\NXP\LPC11xx\Include -I ..\Core\CMSIS\Include -I ..\drivers\inc -I ..\iap\inc -I ..\main-I "E:\CodesPath\MDK ARM\lpc11xx_bootloader\Keil\RTE"-I "D:\Program Files\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx"-I "D:\Program Files\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DLPC1XXX -DFLASH_32-o .\objects\flashdev.o --omf_browse .\objects\flashdev.crf --depend .\objects\flashdev.d)
+I (..\iap\inc\FlashOS.H)(0x5767AA82)
+F (..\iap\src\FlashPrg.c)(0x57678BBF)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\..\lpc11xx_bootloader -I ..\Core\Device\NXP\LPC11xx\Include -I ..\Core\CMSIS\Include -I ..\drivers\inc -I ..\iap\inc -I ..\main-I "E:\CodesPath\MDK ARM\lpc11xx_bootloader\Keil\RTE"-I "D:\Program Files\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx"-I "D:\Program Files\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DLPC1XXX -DFLASH_32-o .\objects\flashprg.o --omf_browse .\objects\flashprg.crf --depend .\objects\flashprg.d)
+I (..\iap\inc\FlashOS.H)(0x5767AA82)
+F (..\drivers\src\LPC11xx_uart.c)(0x5768AB88)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\..\lpc11xx_bootloader -I ..\Core\Device\NXP\LPC11xx\Include -I ..\Core\CMSIS\Include -I ..\drivers\inc -I ..\iap\inc -I ..\main-I "E:\CodesPath\MDK ARM\lpc11xx_bootloader\Keil\RTE"-I "D:\Program Files\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx"-I "D:\Program Files\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DLPC1XXX -DFLASH_32-o .\objects\lpc11xx_uart.o --omf_browse .\objects\lpc11xx_uart.crf --depend .\objects\lpc11xx_uart.d)
+I (..\Core\Device\NXP\LPC11xx\Include\LPC11xx.h)(0x4FA340B3)
+I (..\Core\CMSIS\Include\core_cm0.h)(0x4FA340B3)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Core\CMSIS\Include\core_cmInstr.h)(0x4F3DF1A1)
+I (..\Core\CMSIS\Include\core_cmFunc.h)(0x4F3DF1A1)
+I (..\Core\Device\NXP\LPC11xx\Include\system_LPC11xx.h)(0x4FA340B3)
+I (..\drivers\inc\lpc11xx_uart.h)(0x5768AB63)
+I (..\drivers\inc\lpc_types.h)(0x4FA2577D)
+F (..\drivers\src\LPC11xx_debug.c)(0x5768AE48)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\..\lpc11xx_bootloader -I ..\Core\Device\NXP\LPC11xx\Include -I ..\Core\CMSIS\Include -I ..\drivers\inc -I ..\iap\inc -I ..\main-I "E:\CodesPath\MDK ARM\lpc11xx_bootloader\Keil\RTE"-I "D:\Program Files\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx"-I "D:\Program Files\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DLPC1XXX -DFLASH_32-o .\objects\lpc11xx_debug.o --omf_browse .\objects\lpc11xx_debug.crf --depend .\objects\lpc11xx_debug.d)
+I (..\drivers\inc\lpc_types.h)(0x4FA2577D)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Core\Device\NXP\LPC11xx\Include\lpc11xx.h)(0x4FA340B3)
+I (..\Core\CMSIS\Include\core_cm0.h)(0x4FA340B3)
+I (..\Core\CMSIS\Include\core_cmInstr.h)(0x4F3DF1A1)
+I (..\Core\CMSIS\Include\core_cmFunc.h)(0x4F3DF1A1)
+I (..\Core\Device\NXP\LPC11xx\Include\system_LPC11xx.h)(0x4FA340B3)
+I (..\drivers\inc\lpc11xx_uart.h)(0x5768AB63)
+F (..\main\bootloder.c)(0x5768D688)(-c --cpu Cortex-M0 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\..\lpc11xx_bootloader -I ..\Core\Device\NXP\LPC11xx\Include -I ..\Core\CMSIS\Include -I ..\drivers\inc -I ..\iap\inc -I ..\main-I "E:\CodesPath\MDK ARM\lpc11xx_bootloader\Keil\RTE"-I "D:\Program Files\Keil_v5\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx"-I "D:\Program Files\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="520" -DLPC1XXX -DFLASH_32-o .\objects\bootloder.o --omf_browse .\objects\bootloder.crf --depend .\objects\bootloder.d)
+I (..\main\include.h)(0x57679020)
+I (..\Core\Device\NXP\LPC11xx\Include\LPC11xx.h)(0x4FA340B3)
+I (..\Core\CMSIS\Include\core_cm0.h)(0x4FA340B3)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (..\Core\CMSIS\Include\core_cmInstr.h)(0x4F3DF1A1)
+I (..\Core\CMSIS\Include\core_cmFunc.h)(0x4F3DF1A1)
+I (..\Core\Device\NXP\LPC11xx\Include\system_LPC11xx.h)(0x4FA340B3)
+I (..\drivers\inc\LPC11xx_uart.h)(0x5768AB63)
+I (..\drivers\inc\lpc_types.h)(0x4FA2577D)
+I (..\iap\inc\FlashOS.h)(0x5767AA82)
+I (..\drivers\inc\print.h)(0x4FD5B4B1)
+I (..\main\bootloader.h)(0x5768B0CB)
