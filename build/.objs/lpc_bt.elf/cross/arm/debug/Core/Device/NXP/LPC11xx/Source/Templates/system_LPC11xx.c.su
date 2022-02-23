@@ -1,0 +1,2 @@
+Core\Device\NXP\LPC11xx\Source\Templates\system_LPC11xx.c:328:6:SystemCoreClockUpdate	16	static
+Core\Device\NXP\LPC11xx\Source\Templates\system_LPC11xx.c:419:6:SystemInit	16	static

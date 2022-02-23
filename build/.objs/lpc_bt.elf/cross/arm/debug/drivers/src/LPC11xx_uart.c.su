@@ -1,0 +1,7 @@
+drivers\src\LPC11xx_uart.c:52:6:UART_SetBaudrate	24	static
+drivers\src\LPC11xx_uart.c:72:6:UART_Init	8	static
+drivers\src\LPC11xx_uart.c:107:6:UART_DeInit	8	static
+drivers\src\LPC11xx_uart.c:123:10:UART_Send	40	static
+drivers\src\LPC11xx_uart.c:162:10:UART_Receive	32	static
+drivers\src\LPC11xx_uart.c:187:10:UART_ReveiveDown	32	static
+drivers\src\LPC11xx_uart.c:217:9:UART_GetLineStatus	8	static

@@ -1,0 +1,6 @@
+iap\src\FlashPrg.c:166:15:GetSecNum	24	static
+iap\src\FlashPrg.c:197:5:Init	24	static
+iap\src\FlashPrg.c:288:5:UnInit	16	static
+iap\src\FlashPrg.c:298:5:EraseChip	16	static
+iap\src\FlashPrg.c:323:5:EraseSector	32	static
+iap\src\FlashPrg.c:353:5:ProgramPage	40	static

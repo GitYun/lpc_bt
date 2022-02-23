@@ -1,0 +1,7 @@
+main\bootloder.c:11:6:print_menu	8	static
+main\bootloder.c:17:13:initAppBufData	24	static
+main\bootloder.c:27:12:uploadApp	32	static
+main\bootloder.c:85:12:receiveAppData	24	static
+main\bootloder.c:98:12:runNewApp	16	static
+main\bootloder.c:106:5:c_entry	24	static
+main\bootloder.c:158:5:main	8	static

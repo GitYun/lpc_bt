@@ -1,0 +1,17 @@
+{
+    cmdlines = {
+        "xmake build -v ./lpc_bt.elf",
+        [[xmake lua D:\OpenFree\xmake\actions\build\statistics.lua --verbose]],
+        "xmake f -p cross --cross=arm-none-eabi- --bin=D:/OpenFree/gcc-arm-none-eabi-10.3-2021.10/bin/ -m debug",
+        "xmake f -p cross --cross=arm-none-eabi- --bin=D:/OpenFree/gcc-arm-none-eabi-10.3-2021.10/bin/ --sdk=D:/OpenFree/gcc-arm-none-eabi-10.3-2021.10/bin/ -m debug",
+        "xmake build -v ./lpc_bt.elf",
+        [[xmake l c:\Users\renqingyun\.vscode\extensions\tboox.xmake-vscode-1.4.9\assets\config.lua]],
+        [[xmake l c:\Users\renqingyun\.vscode\extensions\tboox.xmake-vscode-1.4.9\assets\update_intellisense.lua .vscode]],
+        "xmake build -v ./lpc_bt.elf",
+        "xmake build -v ./lpc_bt.elf",
+        "xmake build -v ./lpc_bt.elf",
+        "xmake build -v ./lpc_bt.elf",
+        "xmake build -v ./lpc_bt.elf",
+        "xmake build -v ./lpc_bt.elf"
+    }
+}

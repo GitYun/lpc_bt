@@ -1,16 +1,16 @@
 #include "include.h"
 #include "bootloader.h"
 
-#define MENU	"		\"u\": Upload User Application Firmware" \
-							"		\"a\": Get the version of the current application"	\
-							"		\"b\": Get the version of the current bootloader"	\
-							"		\"q\": Quit"
+#define MENU	"		\"u\": Upload User Application Firmware\n" \
+							"		\"a\": Get the version of the current application\n" \
+							"		\"b\": Get the version of the current bootloader\n"	 \
+							"		\"q\": Quit\n"
 
 extern volatile uint8_t UARTBuffer[BUFSIZE];
 
 void print_menu(void)
 {
-	_PRINT_("Commands:");
+	_PRINT_("Commands:\n");
 	_PRINT_(MENU);
 }
 
@@ -43,11 +43,11 @@ static int uploadApp(void)
 	/* receive user application firmware data */
 	retval = receiveAppData(&recvCnt, (uint8_t *)&recvEndAddr);
 	if (0 != retval)
-		return retval;	
+		return retval;
 	
 	/* receive firmware data */
 	while(1)
-	{	
+	{
 		pAppBuffer = (uint8_t *)FLASH_BUFFER_ADDR + (blockNum << 10);
 		if (*pAppBuffer > recvEndAddr)	// reach at receive address tail
 		{
@@ -107,13 +107,16 @@ int c_entry()
 {
 	uint8_t ch;
 //	int retval = 0;
+
+	SystemInit();
+	SystemCoreClockUpdate();
 	
 	UART_Init();		// baudrate: 115200
 	print_menu();
 	
 	while(1)
 	{
-		_PRINT_("\r\n>");
+		_PRINT("\r\n> ");
 		ch = _GET_C;
 		_PRINT_C(ch);
 		_PRINT_("");	// new line
@@ -123,7 +126,14 @@ int c_entry()
 			case 'U':
 				_PRINT_("Upload User Application Firmware");
 				if (0 == uploadApp())
+				{
+					_PRINT_("Success, start run app.");
 					runNewApp();
+				}
+				else
+				{
+					_PRINT_("Failed, please try again.");
+				}
 				break;
 			case 'a':
 			case 'A':

@@ -1,0 +1,30 @@
+{
+    ["tool_target_./lpc_bt.elf_cross_arm_cc"] = {
+        toolname = "gcc",
+        program = [[D:\OpenFree\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc]],
+        toolchain_info = {
+            arch = "arm",
+            plat = "cross",
+            name = "cross",
+            cachekey = "cross_arch_arm_plat_cross"
+        }
+    },
+    cross_arch_arm_plat_cross = {
+        cross = "arm-none-eabi-",
+        plat = "cross",
+        arch = "arm",
+        sdkdir = "D:/OpenFree/gcc-arm-none-eabi-10.3-2021.10/bin/",
+        __global = true,
+        bindir = [[D:\OpenFree\gcc-arm-none-eabi-10.3-2021.10\bin]]
+    },
+    ["tool_target_./lpc_bt.elf_cross_arm_ld"] = {
+        toolname = "gxx",
+        program = [[D:\OpenFree\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++]],
+        toolchain_info = {
+            arch = "arm",
+            plat = "cross",
+            name = "cross",
+            cachekey = "cross_arch_arm_plat_cross"
+        }
+    }
+}

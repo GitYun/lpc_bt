@@ -1,0 +1,7 @@
+drivers\src\LPC11xx_debug.c:41:6:DEBUGPutChar	16	static
+drivers\src\LPC11xx_debug.c:52:9:DEBUGGetChar	16	static
+drivers\src\LPC11xx_debug.c:65:6:DEBUGPuts	16	static
+drivers\src\LPC11xx_debug.c:79:6:DEBUGPuts_	16	static
+drivers\src\LPC11xx_debug.c:90:6:DEBUGPutHex	24	static
+drivers\src\LPC11xx_debug.c:107:7:DEBUGDataReady	8	static
+drivers\src\LPC11xx_debug.c:117:6:DebugInit	8	static

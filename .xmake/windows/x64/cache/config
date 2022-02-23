@@ -1,0 +1,13 @@
+{
+    options = {
+        mode = "debug",
+        bin = "D:/OpenFree/gcc-arm-none-eabi-10.3-2021.10/bin/",
+        sdk = "D:/OpenFree/gcc-arm-none-eabi-10.3-2021.10/bin/",
+        plat = "cross",
+        cross = "arm-none-eabi-"
+    },
+    recheck = false,
+    mtimes = {
+        ["xmake.lua"] = 1645583083
+    }
+}

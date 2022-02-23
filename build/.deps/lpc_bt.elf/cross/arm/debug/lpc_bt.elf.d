@@ -1,0 +1,30 @@
+{
+    files = {
+        [[build\.objs\.\lpc_bt.elf\cross\arm\debug\cr_startup_lpc11xx.c.o]],
+        [[build\.objs\.\lpc_bt.elf\cross\arm\debug\main\bootloder.c.o]],
+        [[build\.objs\.\lpc_bt.elf\cross\arm\debug\iap\src\FlashDev.c.o]],
+        [[build\.objs\.\lpc_bt.elf\cross\arm\debug\iap\src\FlashPrg.c.o]],
+        [[build\.objs\.\lpc_bt.elf\cross\arm\debug\drivers\src\LPC11xx_debug.c.o]],
+        [[build\.objs\.\lpc_bt.elf\cross\arm\debug\drivers\src\LPC11xx_uart.c.o]],
+        [[build\.objs\.\lpc_bt.elf\cross\arm\debug\Core\Device\NXP\LPC11xx\Source\Templates\system_LPC11xx.c.o]]
+    },
+    values = {
+        [[D:\OpenFree\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++]],
+        {
+            "-mcpu=cortex-m0",
+            "-mthumb",
+            "-T",
+            "lpc_debug.ld",
+            "-specs=nosys.specs",
+            "-Wl,-Map=build/cross/arm/debug/lpc_bt.map",
+            "-Wl,--gc-sections",
+            "-static",
+            "-specs=nano.specs",
+            "-mfloat-abi=soft",
+            "-Wl,--start-group",
+            "-lc",
+            "-lm",
+            "-Wl,--end-group"
+        }
+    }
+}
